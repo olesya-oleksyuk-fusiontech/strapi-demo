@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_shared_links",
+  "info": {
+    "displayName": "link",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "href": {
+      "type": "string",
+      "default": "/",
+      "required": true
+    },
+    "label": {
+      "type": "string",
+      "default": "NavName",
+      "required": true,
+      "maxLength": 20,
+      "minLength": 3
+    },
+    "isExternal": {
+      "type": "boolean",
+      "default": true,
+      "required": false
+    }
+  }
+}

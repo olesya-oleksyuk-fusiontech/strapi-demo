@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_shared_modules",
+  "info": {
+    "displayName": "module"
+  },
+  "options": {},
+  "attributes": {
+    "Icon": {
+      "allowedTypes": [
+        "files"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "maxLength": 30,
+      "minLength": 2,
+      "required": true,
+      "default": "Module"
+    }
+  }
+}

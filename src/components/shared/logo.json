@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_shared_logos",
+  "info": {
+    "displayName": "Logo",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Logo": {
+      "displayName": "Logo",
+      "type": "component",
+      "repeatable": false,
+      "component": "logo.logo"
+    }
+  }
+}

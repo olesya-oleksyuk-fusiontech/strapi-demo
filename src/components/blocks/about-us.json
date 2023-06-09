@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_blocks_about_uses",
+  "info": {
+    "displayName": "About Us"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "About us",
+      "required": true
+    },
+    "paragraphFirst": {
+      "type": "text",
+      "required": true,
+      "minLength": 200,
+      "maxLength": 300,
+      "default": "R-WAVE is a business solution designed to helps small and medium-sized businesses manage and streamline their operations. It covers all aspects of a business process, with a special emphasis on organizing products in a hierarchical way."
+    },
+    "paragraphSecond": {
+      "type": "text",
+      "default": "R-WAVE is a business solution designed to helps small and medium-sized businesses manage and streamline their operations. It covers all aspects of a business process, with a special emphasis on organizing products in a hierarchical way.",
+      "required": true,
+      "maxLength": 300,
+      "minLength": 200
+    },
+    "aboutUsPicture": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

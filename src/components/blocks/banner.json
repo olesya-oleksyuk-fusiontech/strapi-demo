@@ -1,0 +1,44 @@
+{
+  "collectionName": "components_blocks_banners",
+  "info": {
+    "displayName": "Banner"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "More than just ERP",
+      "required": true,
+      "minLength": 3,
+      "maxLength": 20
+    },
+    "socialMedia": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.link"
+    },
+    "description": {
+      "type": "text",
+      "default": "Fully integrated business process for manufacturing and add value reselling enterprises",
+      "required": true,
+      "maxLength": 100,
+      "minLength": 50
+    },
+    "stamp": {
+      "allowedTypes": [
+        "files"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": false
+    },
+    "slider": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": true
+    }
+  }
+}

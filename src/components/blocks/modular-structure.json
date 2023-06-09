@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_blocks_modular_structures",
+  "info": {
+    "displayName": "Modular structure"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "default": "Modular Structure",
+      "required": true,
+      "minLength": 5,
+      "maxLength": 30
+    },
+    "paragraphFirst": {
+      "type": "text",
+      "default": "R-WAVE is a business solution designed to helps small and medium-sized businesses manage and streamline their operations. It covers all aspects of a business process, with a special emphasis on organizing products in a hierarchical way.",
+      "required": true,
+      "maxLength": 250,
+      "minLength": 200
+    },
+    "paragraphSecond": {
+      "type": "text",
+      "default": "R-WAVE is a business solution designed to helps small and medium-sized businesses manage and streamline their operations. It covers all aspects of a business process, with a special emphasis on organizing products in a hierarchical way.",
+      "required": true,
+      "maxLength": 250,
+      "minLength": 200
+    },
+    "Module": {
+      "displayName": "module",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.module"
+    }
+  }
+}
